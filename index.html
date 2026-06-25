@@ -1,81 +1,101 @@
+
 <!DOCTYPE html>
 
 <html lang="en">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Nightingale</title>
 
-<style>
-body {
-    margin: 0;
-    background-color: #0f1117;
-    color: #f5f1e8;
-    font-family: Georgia, serif;
-    line-height: 1.8;font-family: 'Cormorant Garamond', serif;
-}
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&display=swap" rel="stylesheet">
 
-.hero {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 20px;
-}.hero {
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#0f1117;
+    color:#f5f1e8;
+    font-family:'Cormorant Garamond', serif;
+    line-height:1.8;
+}
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+
     background:
     linear-gradient(
-        rgba(15,17,23,0.65),
+        rgba(15,17,23,0.55),
         rgba(15,17,23,0.85)
     ),
     url('download.webp');
 
-    background-size: cover;
-    background-position: center;
+    background-size:cover;
+    background-position:center;
 }
 
-.hero h1 {
-    font-size: 4rem;
-    letter-spacing: 4px;
-    margin-bottom: 10px;
+.hero h1{
+    font-size:5rem;
+    letter-spacing:8px;
+    margin-bottom:15px;
+    text-shadow:0 0 25px rgba(0,0,0,0.6);
 }
 
-.tagline {
-    font-style: italic;
-    color: #d4c19c;
-    font-size: 1.2rem;
+.tagline{
+    font-size:1.4rem;
+    font-style:italic;
+    color:#d4c19c;
 }
 
-.section {
-    max-width: 850px;
-    margin: auto;
-    padding: 70px 25px;
+.section{
+    max-width:900px;
+    margin:auto;
+    padding:80px 25px;
 }
 
-.section h2 {
-    color: #d4c19c;
-    margin-bottom: 20px;
+.section h2{
+    font-size:2.3rem;
+    color:#d4c19c;
+    margin-bottom:25px;
 }
 
-.card {
-    background: #171b24;
-    padding: 30px;
-    border-radius: 15px;
+.card{
+    background:rgba(23,27,36,0.75);
+    backdrop-filter:blur(10px);
+    border:1px solid rgba(212,193,156,0.15);
+    border-radius:18px;
+    padding:35px;
 }
 
-.quote {
-    text-align: center;
-    font-style: italic;
-    font-size: 1.2rem;
+.card p{
+    font-size:1.3rem;
 }
 
-footer {
-    text-align: center;
-    padding: 40px;
-    color: #888;
+.quote{
+    text-align:center;
+    font-style:italic;
+    font-size:1.5rem;
 }
+
+footer{
+    text-align:center;
+    padding:50px;
+    color:#888;
+    border-top:1px solid rgba(255,255,255,0.08);
+}
+
 </style>
 
 </head>
@@ -84,9 +104,13 @@ footer {
 
 <div class="hero">
     <h1>NIGHTINGALE</h1>
-    <p class="tagline">
-        "For those who still pause long enough to feel."
-    </p>
+
+```
+<p class="tagline">
+    "For those who still pause long enough to feel."
+</p>
+```
+
 </div>
 
 <div class="section">
@@ -97,8 +121,8 @@ footer {
     <p>
         Life is a tree with countless branches.
         This space is dedicated to exploring those branches—
-        thoughts, stories, lessons, questions, and moments
-        that make us human.
+        thoughts, stories, lessons, questions,
+        and moments that make us human.
     </p>
 </div>
 ```
@@ -112,8 +136,8 @@ footer {
 <div class="card">
     <p>
         Essays, observations, and stories about growth,
-        ambition, emotions, creativity, and the human
-        experience.
+        ambition, emotions, creativity, relationships,
+        and the beautiful complexity of the human experience.
     </p>
 </div>
 ```
@@ -125,7 +149,7 @@ footer {
 
 ```
 <div class="card quote">
-    "Every chapter begins long before we feel ready."
+    “Every chapter begins long before we feel ready.”
 </div>
 ```
 
@@ -138,8 +162,8 @@ footer {
 <div class="card">
     <p>
         Nightingale is a quiet corner of the internet
-        dedicated to thoughtful writing, reflection,
-        and meaningful conversations.
+        dedicated to reflection, thoughtful writing,
+        and meaningful conversations about life.
     </p>
 </div>
 ```
@@ -152,3 +176,4 @@ footer {
 
 </body>
 </html>
+
